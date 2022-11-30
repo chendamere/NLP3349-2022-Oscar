@@ -115,7 +115,7 @@ def init_locals(debug: str,
                 ) -> Tuple[str, OutputManager]:
     # assert not (utc_upper_bound and utc_lower_bound), "`utc_lower_bound` and " \
     #                                                   "`utc_upper_bound` parameters are in mutual exclusion"
-    
+
     run_args.pop("reddit_secret")
 
     if not debug:
@@ -133,7 +133,7 @@ def init_clients(reddit_id: str,
                  reddit_secret: str,
                  reddit_username: str
                  ) -> Tuple[PushshiftAPI, praw.Reddit]:
-    
+
 
     reddit_api = praw.Reddit(
         client_id=reddit_id,
@@ -254,7 +254,7 @@ def main(subreddit: str = Argument(..., help=HelpMessages.subreddit),
     #     line = line.strip()
     #     allNominatedMovieNames.append(line)
     # print(allNominatedMovieNames)
-    # 
+    #
     utc_upper_bound = utc_after
     utc_lower_bound = utc_before
     direction, out_manager = init_locals(debug,
@@ -288,14 +288,14 @@ def main(subreddit: str = Argument(..., help=HelpMessages.subreddit),
                                                                      after=ts_after,
                                                                      before=ts_before,
                                                                      )
-            
+
             for sub in submissions_generator:
                 if("Official Discussion" not in sub.title):
                     continue
                 else:
                     print(sub.title)
                 logger.debug(f"New submission `{sub.full_link}` - created_utc: {sub.created_utc}")
-                
+
                 # Fetch the submission data
                 submission_fetcher(sub, out_manager)
 
@@ -310,7 +310,7 @@ def main(subreddit: str = Argument(..., help=HelpMessages.subreddit),
             out_manager.store(lap)
 
             # Check the bounds
-            
+
             # assert utc_lower_bound < utc_upper_bound, f"utc_lower_bound '{utc_lower_bound}' should be " \
             #                                           f"less than utc_upper_bound '{utc_upper_bound}'"
         logger.debug(f"utc_upper_bound: {utc_upper_bound} , utc_lower_bound: {utc_lower_bound}")
