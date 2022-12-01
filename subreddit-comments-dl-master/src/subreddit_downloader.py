@@ -2,8 +2,10 @@ import sys
 import csv
 import json
 import praw
+from psaw import PushshiftAPI
 import yaml
 import typer
+import datetime as dt
 from datetime import datetime
 
 # noinspection PyUnresolvedReferences
@@ -111,8 +113,9 @@ def init_locals(debug: str,
                 utc_lower_bound: str,
                 run_args: dict,
                 ) -> Tuple[str, OutputManager]:
-    assert not (utc_upper_bound and utc_lower_bound), "`utc_lower_bound` and " \
-                                                      "`utc_upper_bound` parameters are in mutual exclusion"
+    # assert not (utc_upper_bound and utc_lower_bound), "`utc_lower_bound` and " \
+    #                                                   "`utc_upper_bound` parameters are in mutual exclusion"
+
     run_args.pop("reddit_secret")
 
     if not debug:
@@ -130,14 +133,14 @@ def init_clients(reddit_id: str,
                  reddit_secret: str,
                  reddit_username: str
                  ) -> Tuple[PushshiftAPI, praw.Reddit]:
-    pushshift_api = PushshiftAPI()
+
 
     reddit_api = praw.Reddit(
         client_id=reddit_id,
         client_secret=reddit_secret,
         user_agent=f"python_script:subreddit_downloader:(by /u/{reddit_username})",
     )
-
+    pushshift_api = PushshiftAPI()
     return pushshift_api, reddit_api
 
 
@@ -199,9 +202,8 @@ def submission_fetcher(sub, output_manager: OutputManager):
         "title": sub.title.replace('\n', '\\n'),
         "selftext": self_text_normalized,
         "full_link": sub.full_link,
-        "num_comments": sub.num_comments
+        "num_comments": sub.num_comments,
     }
-    
     output_manager.submissions_list.append(submission_useful_data)
     output_manager.submissions_raw_list.append(sub.d_)
 
@@ -244,8 +246,15 @@ def main(subreddit: str = Argument(..., help=HelpMessages.subreddit),
     """
     Download all the submissions and relative comments from a subreddit.
     """
-
-    # Init
+    ts_after = int(dt.datetime(2010, 1, 1).timestamp())
+    ts_before = int(dt.datetime(2020+1, 1, 1).timestamp())
+    # allNominatedMovieNames = []
+    # file = open("NominatedMovies.txt",'r')
+    # for line in file:
+    #     line = line.strip()
+    #     allNominatedMovieNames.append(line)
+    # print(allNominatedMovieNames)
+    #
     utc_upper_bound = utc_after
     utc_lower_bound = utc_before
     direction, out_manager = init_locals(debug,
@@ -272,17 +281,19 @@ def main(subreddit: str = Argument(..., help=HelpMessages.subreddit),
             out_manager.reset_lists()
             url = "https://www.reddit.com/r/movies/comments/dd0ynj/official_discussion_joker_spoilers/"
             # Fetch data in the `direction` way
-            submissions_generator = pushshift_api.search_submissions(subreddit=subreddit,
+            submissions_generator = pushshift_api.search_submissions(
+                                                                     subreddit=subreddit,
+                                                                     q = "official discussion [SPOILERS]",
                                                                      limit=batch_size,
-                                                                     url = url,
-                                                                     q = "Official Discussion- Joker (SPOILERS)",
-                                                                     sort='desc' if direction == "before" else 'asc',
-                                                                     sort_type='created_utc',
-                                                                     after=utc_upper_bound if direction == "after" else None,
-                                                                     before=utc_lower_bound if direction == "before" else None,
+                                                                     after=ts_after,
+                                                                     before=ts_before,
                                                                      )
 
             for sub in submissions_generator:
+                if("Official Discussion" not in sub.title):
+                    continue
+                else:
+                    print(sub.title)
                 logger.debug(f"New submission `{sub.full_link}` - created_utc: {sub.created_utc}")
 
                 # Fetch the submission data
@@ -292,15 +303,16 @@ def main(subreddit: str = Argument(..., help=HelpMessages.subreddit),
                 comments_fetcher(sub, out_manager, reddit_api, comments_cap)
 
                 # Calculate the UTC seen range
-                utc_lower_bound, utc_upper_bound = utc_range_calculator(sub.created_utc,
-                                                                        utc_upper_bound,
-                                                                        utc_lower_bound)
+                # utc_lower_bound, utc_upper_bound = utc_range_calculator(sub.created_utc,
+                #                                                         utc_upper_bound,
+                #                                                         utc_lower_bound)
             # Store data (submission and comments)
             out_manager.store(lap)
 
             # Check the bounds
-            assert utc_lower_bound < utc_upper_bound, f"utc_lower_bound '{utc_lower_bound}' should be " \
-                                                      f"less than utc_upper_bound '{utc_upper_bound}'"
+
+            # assert utc_lower_bound < utc_upper_bound, f"utc_lower_bound '{utc_lower_bound}' should be " \
+            #                                           f"less than utc_upper_bound '{utc_upper_bound}'"
         logger.debug(f"utc_upper_bound: {utc_upper_bound} , utc_lower_bound: {utc_lower_bound}")
 
     out_manager.enrich_and_store_params(utc_newer=utc_upper_bound, utc_older=utc_lower_bound)
