@@ -66,32 +66,115 @@ year,movie,reddit_link,reddit_submission,nominated,genre
 2020,Happiest Season,https://www.reddit.com/r/movies/comments/k2ctta/official_discussion_happiest_season_spoilers/,k2ctta,0,Drama
 2020,Pieces of a Woman,https://www.reddit.com/r/movies/comments/ky931c/official_discussion_pieces_of_a_woman_spoilers/,ky931c,0,Drama
 2019,Parasite,https://www.reddit.com/r/movies/comments/dps3xy/official_discussion_parasite_spoilers/,dps3xy,1,Thriller
-,Ford v Ferrari,https://www.reddit.com/r/movies/comments/dvu5es/official_discussion_ford_v_ferrari_spoilers/,dvu5es,1,Drama
-,The Irishman,https://www.reddit.com/r/movies/comments/e2149d/official_discussion_the_irishman_spoilers/,e2149d,1,Drama
-,Jojo Rabbit,https://www.reddit.com/r/movies/comments/dpqt2y/official_discussion_jojo_rabbit_spoilers/,dpqt2y,1,Comedy
-,Joker,https://www.reddit.com/r/movies/comments/dd0ynj/official_discussion_joker_spoilers/,dd0ynj,1,Thriller
-,Little Women,https://www.reddit.com/r/movies/comments/ef4z7u/official_discussion_little_women_2019_spoilers/,ef4z7u,1,Drama
-,Marriage Story,https://www.reddit.com/r/movies/comments/e6l8bc/official_discussion_marriage_story_spoilers/,e6l8bc,1,Romance
-,1917,https://www.reddit.com/r/movies/comments/emi5z3/official_discussion_1917_spoilers/,emi5z3,1,Drama
-,Once Upon a Time in Hollywood,https://www.reddit.com/r/movies/comments/chmknk/official_discussion_once_upon_a_time_in_hollywood/,chmknk,1,Drama
-,Avengers: Endgame,https://www.reddit.com/r/movies/comments/bh8iei/official_discussion_avengers_endgame_spoilers/,bh8iei,0,Action
-,Us,https://www.reddit.com/r/movies/comments/b3r0xq/official_discussion_us_spoilers/,b3r0xq,0,Horror
-,Toy Story 4,https://www.reddit.com/r/movies/comments/c2ntqo/official_discussion_toy_story_4_spoilers/,c2ntqo,0,Animation
-,Knives Out,https://www.reddit.com/r/movies/comments/e21a17/official_discussion_knives_out_spoilers/,e21a17,0,Mystery
-,Booksmart,https://www.reddit.com/r/movies/comments/bs6w7x/official_discussion_booksmart_spoilers/,bs6w7x,0,Comedy
-,The Farewell,https://www.reddit.com/r/movies/comments/ckwhml/official_discussion_the_farewell_spoilers/,ckwhml,0,Drama
-,Spiderman: Far From Home,https://www.reddit.com/r/movies/comments/c7xhmz/official_discussion_spiderman_far_from_home/,c7xhmz,0,Action
-,Shazam!,https://www.reddit.com/r/movies/comments/b94c5i/official_discussion_shazam_spoilers/,b94c5i,0,Action
-,Pain and Glory,https://www.reddit.com/r/movies/comments/et2w68/pain_and_glory/,et2w68,0,Drama
-,Apollo 11,https://www.reddit.com/r/movies/comments/ayhuw3/official_discussion_apollo_11_2019_spoilers/,ayhuw3,0,Documentary
-,They Shall Not Grow Old,https://www.reddit.com/r/movies/comments/a5yk8k/official_discussion_they_shall_not_grow_old_us/,a5yk8k,0,Documentary
-,Dolemite is My Name,https://www.reddit.com/r/movies/comments/dmicfu/official_discussion_dolemite_is_my_name_spoilers/,dmicfu,0,Drama
-,Ash is Purest White,https://www.reddit.com/r/movies/comments/d4iawv/ash_is_purest_white/,d4iawv,0,Drama
-,Midsommar,https://www.reddit.com/r/movies/comments/c7y18a/official_discussion_midsommar_spoilers/,c7y18a,0,Horror
-,The Gentlemen,https://www.reddit.com/r/movies/comments/esvjmz/official_discussion_the_gentlemen_spoilers/,esvjmz,0,Action
-,Last Christmas,https://www.reddit.com/r/movies/comments/dt0v6z/official_discussion_last_christmas_spoilers/,dt0v6z,0,Comedy
-,Rocketman,https://www.reddit.com/r/movies/comments/bumz7b/official_discussion_rocketman_spoilers/,bumz7b,0,Biography
-,Alita: Battle Angel,https://www.reddit.com/r/movies/comments/aoc6mr/official_discussion_alita_battle_angel_spoilers/,aoc6mr,0,Action
-,Klaus,https://www.reddit.com/r/movies/comments/dws9et/official_discussion_klaus_spoilers/,dws9et,0,Animation
-,Uncut Gems,https://www.reddit.com/r/movies/comments/ef4qsw/official_discussion_uncut_gems_spoilers/,ef4qsw,0,Crime
-,After,https://www.reddit.com/r/movies/comments/bc0mfw/official_discussion_after_spoilers/,bc0mfw,0,Drama
+2019,Ford v Ferrari,https://www.reddit.com/r/movies/comments/dvu5es/official_discussion_ford_v_ferrari_spoilers/,dvu5es,1,Drama
+2019,The Irishman,https://www.reddit.com/r/movies/comments/e2149d/official_discussion_the_irishman_spoilers/,e2149d,1,Drama
+2019,Jojo Rabbit,https://www.reddit.com/r/movies/comments/dpqt2y/official_discussion_jojo_rabbit_spoilers/,dpqt2y,1,Comedy
+2019,Joker,https://www.reddit.com/r/movies/comments/dd0ynj/official_discussion_joker_spoilers/,dd0ynj,1,Thriller
+2019,Little Women,https://www.reddit.com/r/movies/comments/ef4z7u/official_discussion_little_women_2019_spoilers/,ef4z7u,1,Drama
+2019,Marriage Story,https://www.reddit.com/r/movies/comments/e6l8bc/official_discussion_marriage_story_spoilers/,e6l8bc,1,Romance
+2019,1917,https://www.reddit.com/r/movies/comments/emi5z3/official_discussion_1917_spoilers/,emi5z3,1,Drama
+2019,Once Upon a Time in Hollywood,https://www.reddit.com/r/movies/comments/chmknk/official_discussion_once_upon_a_time_in_hollywood/,chmknk,1,Drama
+2019,Avengers: Endgame,https://www.reddit.com/r/movies/comments/bh8iei/official_discussion_avengers_endgame_spoilers/,bh8iei,0,Action
+2019,Us,https://www.reddit.com/r/movies/comments/b3r0xq/official_discussion_us_spoilers/,b3r0xq,0,Horror
+2019,Toy Story 4,https://www.reddit.com/r/movies/comments/c2ntqo/official_discussion_toy_story_4_spoilers/,c2ntqo,0,Animation
+2019,Knives Out,https://www.reddit.com/r/movies/comments/e21a17/official_discussion_knives_out_spoilers/,e21a17,0,Mystery
+2019,Booksmart,https://www.reddit.com/r/movies/comments/bs6w7x/official_discussion_booksmart_spoilers/,bs6w7x,0,Comedy
+2019,The Farewell,https://www.reddit.com/r/movies/comments/ckwhml/official_discussion_the_farewell_spoilers/,ckwhml,0,Drama
+2019,Spiderman: Far From Home,https://www.reddit.com/r/movies/comments/c7xhmz/official_discussion_spiderman_far_from_home/,c7xhmz,0,Action
+2019,Shazam!,https://www.reddit.com/r/movies/comments/b94c5i/official_discussion_shazam_spoilers/,b94c5i,0,Action
+2019,Pain and Glory,https://www.reddit.com/r/movies/comments/et2w68/pain_and_glory/,et2w68,0,Drama
+2019,Apollo 11,https://www.reddit.com/r/movies/comments/ayhuw3/official_discussion_apollo_11_2019_spoilers/,ayhuw3,0,Documentary
+2019,They Shall Not Grow Old,https://www.reddit.com/r/movies/comments/a5yk8k/official_discussion_they_shall_not_grow_old_us/,a5yk8k,0,Documentary
+2019,Dolemite is My Name,https://www.reddit.com/r/movies/comments/dmicfu/official_discussion_dolemite_is_my_name_spoilers/,dmicfu,0,Drama
+2019,Ash is Purest White,https://www.reddit.com/r/movies/comments/d4iawv/ash_is_purest_white/,d4iawv,0,Drama
+2019,Midsommar,https://www.reddit.com/r/movies/comments/c7y18a/official_discussion_midsommar_spoilers/,c7y18a,0,Horror
+2019,The Gentlemen,https://www.reddit.com/r/movies/comments/esvjmz/official_discussion_the_gentlemen_spoilers/,esvjmz,0,Action
+2019,Last Christmas,https://www.reddit.com/r/movies/comments/dt0v6z/official_discussion_last_christmas_spoilers/,dt0v6z,0,Comedy
+2019,Rocketman,https://www.reddit.com/r/movies/comments/bumz7b/official_discussion_rocketman_spoilers/,bumz7b,0,Biography
+2019,Alita: Battle Angel,https://www.reddit.com/r/movies/comments/aoc6mr/official_discussion_alita_battle_angel_spoilers/,aoc6mr,0,Action
+2019,Klaus,https://www.reddit.com/r/movies/comments/dws9et/official_discussion_klaus_spoilers/,dws9et,0,Animation
+2019,Uncut Gems,https://www.reddit.com/r/movies/comments/ef4qsw/official_discussion_uncut_gems_spoilers/,ef4qsw,0,Crime
+2019,After,https://www.reddit.com/r/movies/comments/bc0mfw/official_discussion_after_spoilers/,bc0mfw,0,Drama
+2018,Green Book,https://www.reddit.com/r/movies/comments/9yon9m/official_discussion_green_book_spoilers/,9yon9m,1,Drama
+2018,Black Panther,https://www.reddit.com/r/movies/comments/7xvumf/official_discussion_black_panther_spoilers/,7xumf,1,Action
+2018,Blackkklansman,https://www.reddit.com/r/movies/comments/962sh1/official_discussion_blackkklansman_spoilers/,962sh1,1,Crime
+2018,Bohemian Rhapsody,https://www.reddit.com/r/movies/comments/9t6lw5/official_discussion_bohemian_rhapsody_spoilers/,9t6lw5,1,Musical
+2018,The Favourite,https://www.reddit.com/r/movies/comments/a5mkir/official_discussion_the_favourite_spoilers/,a5mkir,1,Drama
+2018,Roma,https://www.reddit.com/r/movies/comments/a4rv1y/official_discussion_roma_spoilers/,a4rv1y,1,Drama
+2018,A Star is Born,https://www.reddit.com/r/movies/comments/9li7w0/official_discussion_a_star_is_born_2018_spoilers/,9li7w0,1,Romance
+2018,Vice,https://www.reddit.com/r/movies/comments/a9gjba/official_discussion_vice_spoilers/,a9gjba,1,Drama
+2018,The Grinch,https://www.reddit.com/r/movies/comments/9vgc66/official_discussion_the_grinch_2018_spoilers/,9vgc66,0,Animation
+2018,Hereditary,https://www.reddit.com/r/movies/comments/8pg2ma/official_discussion_hereditary_spoilers/,8pg2ma,0,Horror
+2018,Avengers: Infinity War,https://www.reddit.com/r/movies/comments/8f84h0/official_discussion_avengers_infinity_war_spoilers/,8f84h0,0,Action
+2018,Suspiria,https://www.reddit.com/r/movies/comments/9t6qga/official_discussion_suspiria_2018_spoilers/,9t6qga,0,Drama
+2018,Spiderman: Into the Spiderverse,https://www.reddit.com/r/movies/comments/a5yi33/official_discussion_spiderman_into_the/,a5yi33,0,Animation
+2018,Deadpool 2,https://www.reddit.com/r/movies/comments/8k9ob3/official_discussion_deadpool_2_spoilers/,8k9ob3,0,Action
+2018,Ready Player One,https://www.reddit.com/r/movies/comments/87yv63/official_discussion_ready_player_one_spoilers/,87yv63,0,Sci-Fi
+2018,Red Sparrow,https://www.reddit.com/r/movies/comments/81bwds/official_discussion_red_sparrow_spoilers/,81bwds,0,Thriller
+2018,Aquaman,https://www.reddit.com/r/movies/comments/a6qh98/official_discussion_aquaman_us_release_spoilers/,a6qh98,0,Action
+2018,A Quiet Place,https://www.reddit.com/r/movies/comments/8a5qdo/official_discussion_a_quiet_place_spoilers/,8a5qdo,0,Drama
+2018,Mile 22,https://www.reddit.com/r/movies/comments/97yb41/official_discussion_mile_22_spoilers/,97yb41,0,Action
+2018,Mission Impossible: Fallout,https://www.reddit.com/r/movies/comments/928hh5/official_discussion_mission_impossible_fallout/,928hh5,0,Action
+2018,The Ballad of Buster Scruggs,https://www.reddit.com/r/movies/comments/9x1g48/official_discussion_the_ballad_of_buster_scruggs/,9x1g48,0,Comedy
+2018,Bad Times at the El Royale,https://www.reddit.com/r/movies/comments/9n9qjv/official_discussion_bad_times_at_the_el_royale/,9n9qjv,0,Crime
+2018,Annihilation,https://www.reddit.com/r/movies/comments/7zqsdy/official_discussion_annihilation_spoilers/,7zqsdy,0,Adventure
+2018,Paddington 2,https://www.reddit.com/r/movies/comments/7ptniu/official_discussion_paddington_2_spoilers/,7ptniu,0,Family
+2018,Incredibles 2,https://www.reddit.com/r/movies/comments/8r7d6q/official_discussion_incredibles_2_spoilers/,8r7d6q,0,Family
+2018,Eighth Grade,https://www.reddit.com/r/movies/comments/945h35/official_discussion_eighth_grade_spoilers/,945h35,0,Drama
+2018,Won't You Be My Neighbor?,https://www.reddit.com/r/movies/comments/8teeyd/official_discussion_wont_you_be_my_neighbor/,8teeyd,0,Documentary
+2018,Can You Ever Forgive Me?,https://www.reddit.com/r/movies/comments/9zja66/official_discussion_can_you_ever_forgive_me/,9zja66,0,Drama
+2018,The Death of Stalin,https://www.reddit.com/r/movies/comments/833jvx/official_discussion_the_death_of_stalin_us/,833jvx,0,Comedy
+2018,Summer 1993,https://www.reddit.com/r/movies/comments/8pko98/summer_1993/,8pko98,0,Drama
+2018,Three Identical Strangers,https://www.reddit.com/r/movies/comments/8v7b55/three_identical_strangers_discussion/,8v7b55,0,Documentary
+2017,The Shape of Water,https://www.reddit.com/r/movies/comments/7llz2i/official_discussion_the_shape_of_water_spoilers/,7llz2i,1,Romance
+2017,Call Me By Your Name,https://www.reddit.com/r/movies/comments/7rfed5/official_discussion_call_me_by_your_name_spoilers/,7rfed5,1,Romance
+2017,Darkest Hour,https://www.reddit.com/r/movies/comments/7mrldf/official_discussion_darkest_hour_spoilers/,7mldf,1,War
+2017,Dunkirk,https://www.reddit.com/r/movies/comments/6ol0kp/official_discussion_dunkirk_spoilers/,6ol0kp,1,War
+2017,Get Out,https://www.reddit.com/r/movies/comments/5vv1qh/official_discussion_get_out_spoilers/,5vv1qh,1,Horror
+2017,Lady Bird,https://www.reddit.com/r/movies/comments/7doxvl/official_discussion_lady_bird_spoilers/,7doxvl,1,Drama
+2017,Phantom Thread,https://www.reddit.com/r/movies/comments/7rfe1t/official_discussion_phantom_thread_spoilers/,7rfe1t,1,Romance
+2017,The Post,https://www.reddit.com/r/movies/comments/7q2oxj/official_discussion_the_post_spoilers/,7q2oxj,1,Drama
+2017,Three Billboards Outside Ebbings Missouri,https://www.reddit.com/r/movies/comments/7gs4g9/official_discussion_three_billboards_outside/,7gs4g9,1,Crime
+2017,Blade Runner 2049,https://www.reddit.com/r/movies/comments/74k6lc/official_discussion_blade_runner_2049_spoilers/,74k6lc,0,Action
+2017,Guardians of the Galaxy Volume 2,https://www.reddit.com/r/movies/comments/69by9z/official_discussion_guardians_of_the_galaxy_vol_2/,69by9z,0,Action
+2017,It,https://www.reddit.com/r/movies/comments/6yrw09/official_discussion_it_spoilers/,6yrw09,0,Horror
+2017,Power Rangers,https://www.reddit.com/r/movies/comments/6169po/official_discussion_power_rangers_spoilers/,6169po,0,Action
+2017,The Greatest Showman,https://www.reddit.com/r/movies/comments/7l6grk/official_discussion_the_greatest_showman_spoilers/,7l6grk,0,Musical
+2017,Cargo,https://www.reddit.com/r/movies/comments/8kbc8p/official_discussion_cargo_2018_spoilers/,8kbc8p,0,Drama
+2017,Thor: Ragnarok,https://www.reddit.com/r/movies/comments/7agfes/official_discussion_thor_ragnarok_us_release/,7agfes,0,Action
+2017,Beauty and the Beast,https://www.reddit.com/r/movies/comments/5zuxzg/official_discussion_beauty_and_the_beast_2017/,5zuxzg,0,Adventure
+2017,Baby Driver,https://www.reddit.com/r/movies/comments/6jxijs/official_discussion_baby_driver_spoilers/,6jxijs,0,Action
+2017,Wind River,https://www.reddit.com/r/movies/comments/6ueskb/official_discussion_wind_river_spoilers/,6ueskb,0,Crime
+2017,John Wick Chapter 2,https://www.reddit.com/r/movies/comments/5t4u0w/official_discussion_john_wick_2_spoilers/,5t4u0w,0,Action
+2017,Murder on the Orient Express,https://www.reddit.com/r/movies/comments/7byfpg/official_discussion_murder_on_the_orient_express/,7byfpg,0,Crime
+2017,Logan,https://www.reddit.com/r/movies/comments/5x7z96/official_discussion_logan_spoilers/,5x7z96,0,Action
+2017,The Big Sick,https://www.reddit.com/r/movies/comments/6n67p0/official_discussion_the_big_sick_spoilers/,6n67p0,0,Romance
+2017,Wonder Woman,https://www.reddit.com/r/movies/comments/6erigc/official_discussion_wonder_woman_spoilers/,6erigc,0,Action
+2017,Star Wars: The Last Jedi,https://www.reddit.com/r/movies/comments/7jwxnd/official_discussion_star_wars_episode_viii_the/,7jwxnd,0,Sci-Fi
+2017,Coco,https://www.reddit.com/r/movies/comments/7eoph7/official_discussion_coco_us_release_spoilers/,7eoph7,0,Family
+2017,The Florida Project,https://www.reddit.com/r/movies/comments/7c5s8i/official_discussion_the_florida_project_spoilers/,7c5s8i,0,Drama
+2017,God's Own Country,https://www.reddit.com/r/movies/comments/6xz8np/discussion_gods_own_country/,6xz8np,0,Romance
+2016,Moonlight,https://www.reddit.com/r/movies/comments/5exe5g/official_discussion_moonlight_spoilers/,5exe5g,1,Drama
+2016,Arrival,https://www.reddit.com/r/movies/comments/5cc7fb/official_discussion_arrival_spoilers/,5cc7fb,1,Sci-Fi
+2016,Fences,https://www.reddit.com/r/movies/comments/5jutlo/official_discussion_fences_spoilers/,5jutlo,1,Drama
+2016,Hacksaw Ridge,https://www.reddit.com/r/movies/comments/5b10qo/official_discussion_hacksaw_ridge_spoilers/,5b10qo,1,War
+2016,Hell or High Water,https://www.reddit.com/r/movies/comments/4zm7w2/official_discussion_hell_or_high_water_spoilers/,4zm7w2,1,Crime
+2016,Hidden Figures,https://www.reddit.com/r/movies/comments/5mi2hq/official_discussion_hidden_figures_spoilers/,5mi2hq,1,Drama
+2016,La La Land,https://www.reddit.com/r/movies/comments/5isens/official_discussion_la_la_land_spoilers/,5isens,1,Romance
+2016,Lion,https://www.reddit.com/r/movies/comments/5l16ve/official_discussion_lion_spoilers/,5l16ve,1,Drama
+2016,Manchester by the Sea,https://www.reddit.com/r/movies/comments/5hi9i5/official_discussion_manchester_by_the_sea_spoilers/,5hi9i5,1,Drama
+2016,Rogue One,https://www.reddit.com/r/movies/comments/5isehr/official_discussion_rogue_one_a_star_wars_story/,5isehr,0,Action
+2016,Sing,https://www.reddit.com/r/movies/comments/5jhnth/official_discussion_sing_spoilers/,5jhnth,0,Family
+2016,Zootopia,https://www.reddit.com/r/movies/comments/48vhc8/official_discussion_zootopia_spoilers/,48vhc8,0,Famlily
+2016,Deadpool,https://www.reddit.com/r/movies/comments/45cn7c/official_discussion_deadpool_spoilers/,45cn7c,0,Action
+2016,Split,https://www.reddit.com/r/movies/comments/5p1gqe/official_discussion_split_spoilers/,5p1gqe,0,Thriller
+2016,Suicide Squad,https://www.reddit.com/r/movies/comments/4w86a7/official_discussion_suicide_squad_spoilers/,4w86a7,0,Action
+2016,Nocturnal Animals,https://www.reddit.com/r/movies/comments/5exedm/official_discussion_nocturnal_animals_spoilers/,5exedm,0,Thriller
+2016,The Nice Guys,https://www.reddit.com/r/movies/comments/4k64eu/official_discussion_the_nice_guys_spoilers/,4k64eu,0,Action
+2016,Moana,https://www.reddit.com/r/movies/comments/5ef0j8/official_discussion_moana_spoilers/,5ef0j8,0,Family
+2016,Office Christmas Party,https://www.reddit.com/r/movies/comments/5hbav3/official_discussion_office_christmas_party/,5hbav3,0,Comedy
+2016,Captain America Civil War,https://www.reddit.com/r/movies/comments/4i35uf/official_discussion_captain_america_civil_war/,4i35uf,0,Action
+2016,Batman v Superman,https://www.reddit.com/r/movies/comments/4bupv2/official_discussion_batman_v_superman_dawn_of/,4bupv2,0,Action
+2016,The Jungle Book,https://www.reddit.com/r/movies/comments/4euj3e/official_discussion_the_jungle_book_2016_spoilers/,4euj3e,0,Family
+2016,Finding Dory,https://www.reddit.com/r/movies/comments/4oh39s/official_discussion_finding_dory_spoilers/,4oh39s,0,Family
+2016,Kubo and the Two Strings,https://www.reddit.com/r/movies/comments/4yg8m5/official_discussion_kubo_and_the_two_strings/,4yg8m5,0,Adventure
