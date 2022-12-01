@@ -28,7 +28,7 @@ def remove_emojis(data):
 def main():
     df = pd.read_csv("comments.csv")
     allcomments = list(df["body"])
-
+    sentences = []
     for comment in allcomments:
         #remove \n
         comment = re.sub(r"\\n","", comment)
@@ -39,5 +39,8 @@ def main():
         comment = remove_emojis(comment)
 
         print(comment)
-
+    filepath = "/"
+    with open(filepath, "w") as fp:
+        for line in sentences:
+            print(line + "#", file=fp)
 main()

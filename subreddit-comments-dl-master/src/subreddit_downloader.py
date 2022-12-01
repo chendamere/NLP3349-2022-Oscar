@@ -199,10 +199,8 @@ def submission_fetcher(sub, output_manager: OutputManager):
         "title": sub.title.replace('\n', '\\n'),
         "selftext": self_text_normalized,
         "full_link": sub.full_link,
+        "num_comments": sub.num_comments
     }
-
-    ##check if post is a movie discussion then append
-
     
     output_manager.submissions_list.append(submission_useful_data)
     output_manager.submissions_raw_list.append(sub.d_)
@@ -272,11 +270,12 @@ def main(subreddit: str = Argument(..., help=HelpMessages.subreddit),
         with Timer(text=lap_message, logger=logger.info):
             # Reset the data already stored
             out_manager.reset_lists()
-
+            url = "https://www.reddit.com/r/movies/comments/dd0ynj/official_discussion_joker_spoilers/"
             # Fetch data in the `direction` way
             submissions_generator = pushshift_api.search_submissions(subreddit=subreddit,
                                                                      limit=batch_size,
-                                                                     q = "Official Discussion",
+                                                                     url = url,
+                                                                     q = "Official Discussion- Joker (SPOILERS)",
                                                                      sort='desc' if direction == "before" else 'asc',
                                                                      sort_type='created_utc',
                                                                      after=utc_upper_bound if direction == "after" else None,
