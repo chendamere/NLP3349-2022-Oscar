@@ -279,7 +279,7 @@ def main(subreddit: str = Argument(..., help=HelpMessages.subreddit),
         with Timer(text=lap_message, logger=logger.info):
             # Reset the data already stored
             out_manager.reset_lists()
-
+            url = "https://www.reddit.com/r/movies/comments/dd0ynj/official_discussion_joker_spoilers/"
             # Fetch data in the `direction` way
             submissions_generator = pushshift_api.search_submissions(
                                                                      subreddit=subreddit,
